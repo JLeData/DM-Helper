@@ -54,32 +54,36 @@ def rolling_effect(duration=3):
 # Comments for 1 and 20 rolls
 critical_fail_comment = [
     "You rolled a natural 1! Critical fail!",
-    "Nice 1, lol.",
-    "RNG is not by your side today. Natural 1.",
-    "I am the 1, the 1! Critical fail!",
-    "Lmao gg no re, take that failed roll.",
-    "Skill issue tbh.",
-    "I bet you want to uninstall with this roll.",
-    "At least you can't roll a 0.",
-    "You are my special.",
-    "Taunt to get bodied, nice 1.",
-    "Will the DM end you with this roll? mayhaps.",
-    "Your action backfires spectacularly. Natural 1.",
-    "The dice said LMAO.",
-    "Jordan having a great time making these messages. Stop rolling 1s lul."
 ]
+
+# My critical fail comments
+    #"Nice 1, lol.",
+    #"RNG is not by your side today. Natural 1.",
+    #"I am the 1, the 1! Critical fail!",
+    #"Lmao gg no re, take that failed roll.",
+    #"Skill issue tbh.",
+    #"I bet you want to uninstall with this roll.",
+    #"At least you can't roll a 0.",
+    #"You are my special.",
+    #"Taunt to get bodied, nice 1.",
+    #"Will the DM end you with this roll? mayhaps.",
+    #"Your action backfires spectacularly. Natural 1.",
+    #"The dice said LMAO.",
+    #"Jordan having a great time making these messages. Stop rolling 1s lul."
 
 critical_success_comment = [
     "You rolled a natural 20! Critical Hit!",
-    "Sugoi!",
-    "Nah, I'd Win.",
-    "Pogu",
-    "Your action goes perfectly! Natural 20!",
-    "Nice roll, brother.",
-    "He's him.",
-    "You just might win this encounter, Nat 20!",
-    "A swing and a crit!"
 ]
+
+# Critical success comments
+    #"Sugoi!",
+    #"Nah, I'd Win.",
+    #"Pogu",
+    #"Your action goes perfectly! Natural 20!",
+    #"Nice roll, brother.",
+    #"He's him.",
+    #"You just might win this encounter, Nat 20!",
+    #"A swing and a crit!"
 
 # Dice roller
 def roll_dice(dice_type, num_dice, modifier=0):
