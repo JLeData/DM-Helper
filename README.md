@@ -128,6 +128,11 @@ critical_success_comment = [
     "Critical success! You're unstoppable!",
 ]
 ```
+4. Save your changes to dm_helper.py after editing.
+
+5. Run DM_Helper again to see your customized roll messages in action and enjoy the personalized touch in your D&D adventures!
+
+I've included a few messages as comments crafted based on my group's dynamic to add some humor to our sessions. Feel free to adapt and create your own messages that resonate with your group dynamic, making your D&D sessions even more enjoyable and memorable!
 
 # Conclusion
 
