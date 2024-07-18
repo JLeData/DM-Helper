@@ -106,6 +106,29 @@ python dm_helper.py
 ```
 Press Enter to run the application.
 
+# Roll Message Customization
+DM_Helper allows you to customize the messages for critical misses and successes to add your own flair to the game. Here’s how you can personalize these messages:
+
+1. Open `dm_helper.py` in your preferred text editor.
+
+2. Navigate to the `Dice Rolling Functions` section where you'll find the comments for critical 1 (`critical_fail_comment`) and critical 20 (`critical_success_comment`) rolls.
+
+3. Modify the messages within these variables to reflect your style or theme. Here are a few ideas to get you started:
+
+```python
+critical_fail_comment = [
+    "You rolled a natural 1! Ouch, that's gonna leave a mark!",
+    "Uh-oh, natural 1! Better luck next time!",
+    "Critical fail! Looks like RNG isn't on your side today.",
+]
+
+critical_success_comment = [
+    "You rolled a natural 20! Boom, critical hit!",
+    "Nat 20! Perfect execution, well done!",
+    "Critical success! You're unstoppable!",
+]
+```
+
 # Conclusion
 
 Working on DM_Helper has been a cool experience for me. It's been interesting diving into programming while also creating something useful for a friend's D&D campaign. Combining my interest in Dungeons & Dragons with coding has been a neat challenge.
